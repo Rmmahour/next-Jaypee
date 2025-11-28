@@ -1,0 +1,136 @@
+.contact_methods {
+    padding: 50px;
+    background-color: var(--gray);
+    border-radius: 48px 12px;
+}
+.contact_box:not(:first-child) {
+    padding: 20px 0px;
+    /*margin-top: 20px;*/
+    border-top: 1px solid #000;
+}
+textarea{
+    resize:unset;
+}
+.contact_box:last-child {
+    padding-bottom:unset;
+}
+.content_box span {
+    margin-right: 10px;
+}
+.contact_forms .nav-item button {
+    border: unset;
+}
+.contact_forms ul.nav-tabs {
+    column-gap: 20px;
+    border-bottom: 1px dotted var(--blue);
+    margin-bottom: 20px;
+}
+.contact_forms .nav-item button.active {
+    border-bottom: 1px solid #000;
+}
+.contact_right .row {
+  grid-row-gap: 1.5rem;
+}
+#contactTabContent .row input, .row .form-select, .row .form-control {
+  padding: 18px 24px;
+  border-radius: unset;
+      /*border-radius: 6px 24px;*/
+}
+#contactTabContent .row textarea {
+    padding: 15px;
+    border-radius: unset;
+    height: 150px;
+}
+#contactTabContent a.bread_btn{
+    background-color: var(--gray);
+    border-radius: 50px;
+}
+#contactTabContent a.bread_btn p{
+    line-height: 18px;
+}
+
+.content_box .mobile_detail {
+  padding-bottom: 5px;
+}
+.contact_title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 8px;
+}
+.contact_box h4 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+}
+.contact_forms {
+  width: 90%;
+  margin-left: auto;
+}
+.contact_input input {
+	width: 100%;
+	padding: 18px 24px;
+	border: 1px solid #dedede;
+	outline: none;
+	    /*border-radius: 6px 24px;*/
+}
+.contact_input textarea {
+	width: 100%;
+	border: 1px solid #dedede;
+	outline: none;
+	padding: 12px 24px;
+	height: 150px;
+	    /*border-radius: 6px 24px;*/
+}
+.contact_input .anweshka_btn {
+	padding: 15px 39px;
+	border-radius: 100px;
+	width: max-content;
+}
+
+
+.contact_forms .nav-link.active {
+  border-bottom: 5px solid var(--orange) !important;
+}
+.contact_forms .nav-tabs .nav-link.active::before {
+  content: '';
+  position: absolute;
+  height: 0px;
+  width: 10%;
+  left: 41%;
+  bottom: -30%;
+  border-top: 15px solid var(--orange);
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+}
+.contact_forms .nav-tabs .nav-link, .contact_forms .nav-tabs .nav-link.active {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  color: var(--blue);
+  background: unset;
+  border: unset;
+  position: relative;
+  transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

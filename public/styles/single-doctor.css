@@ -1,0 +1,304 @@
+section.single_doctor_bread {
+    padding: 70px 0px;
+    background-color: var(--blue);
+}
+.doctor_bread {
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    gap: 150px;
+}
+.bread_img {
+    background-color: var(--back);
+    border-radius: 48px 12px;
+    overflow: hidden;
+}
+.breadcrumb_content {
+    align-content: center;
+    color: #fff;
+}
+.breadcrumb_content h1 {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.breadcrumb_content h1 span {
+    display: flex;
+    align-items: center;
+}
+p.education {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+
+section.dr_summary.trdd.p_100 {
+    padding-top: 0px;
+}
+div#opd {
+    padding-top: unset;
+}
+div#dr_appointment {
+    width: 70%;
+}
+section.doc_page_tabs {
+    position: sticky;
+    top: 0;
+    padding: 30px 0px;
+    background-color: #fff;
+    z-index: 9;
+    margin-top: 70px;
+}
+.nav_inner .doc_tabs_list {
+    display: flex;
+    border: 1px solid #cccccc;
+    padding: 8px 12px;
+    border-radius: 32px;
+    width: max-content;
+}
+.nav_inner nav a.active {
+    background-color: var(--blue);
+    padding: 12px 32px;
+    color: #fff;
+    border-radius: 70px;
+}
+.nav_inner nav a {
+    padding: 12px 32px;
+    /*border: 1px solid #e5e5e5;*/
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 0px;
+    color: #000;
+    display: block;
+}
+
+
+
+.doc_single_data > div:last-child, .doc_single_data > div:first-child {
+    border: unset;
+}
+
+.doc_single_data > div {
+    border-bottom: 1px solid var(--text);
+    padding: 50px 0px 100px;
+}
+
+.dr_summary .doctor-box {
+    border: unset;
+}
+
+/* Profile */
+.about_dr {
+    padding-bottom: 30px;
+    width: 50%;
+}
+.dr_decp {
+    background-color: var(--bg-blue);
+    padding: 50px;
+}
+.dr_decp > div, .dr_decp > ul {
+    width: 60%;
+}
+
+
+.dr_opd {
+    width: 60%;
+}
+
+
+
+/* 
+.doctor-bite-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    gap: 30px;
+} */
+
+
+
+
+
+.doctor_blog_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    gap: 30px;
+}
+
+
+
+
+
+.full-descp {
+            margin-bottom: 48px;
+                border-bottom: 1px solid #B6B6B6;
+        }
+        .full-descp:last-child{
+            border: unset;
+        }
+        .dr_summary h3 {
+            font-size: 24px;
+            line-height: 34px;
+            font-weight: 500;
+            margin-bottom: 12px;
+        }
+        .dr_summary ul li {
+            font-size: 20px;
+            line-height: 42px;
+            list-style: disc;
+            margin-left: 20px;
+        }
+.page-section .dr_summary ul {
+    margin-bottom: 48px;
+}
+.divTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0px;
+}
+.dr_summary a.know_btn {
+    margin: 40px 0px;
+}
+.divTable th, .divTable td {
+    border: 1px solid #ddd;
+}
+.dr_summary h4 {
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--orange);
+}
+.divTable table tr td {
+    font-size: 18px;
+    padding: 24px 48px !important;
+    line-height: 28px;
+}
+.divTable th {
+    font-size: 22px;
+    line-height: 32px;
+    padding: 26px 48px !important;
+    background: #fff !important;
+    color:#000 !important;
+}
+
+.full-descp-1 p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    padding-bottom: 48px;
+}
+.single_doctor .divTable th.white {
+    background-color: #fff;
+    color: #000;
+}
+.dr_summary h2 {
+    text-align:unset;
+}
+.single_doctor .breadcrumb-item.active {
+    color: #fff;
+}
+.single_doctor .breadcrumb-item+.breadcrumb-item::before {
+    color: #fff;
+}
+.doctor-box {
+    margin-bottom: 30px;
+}
+
+.form-row {
+    padding: 0px 0px 20px 0px;
+}
+.form-field input {
+    margin-right: 20px;
+    padding: 12px 25px;
+        border: 1px solid #EAEAEA;
+        font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #373737;
+}
+.form-field select#doctor {
+       padding: 15px 62px 14px 24px;
+
+}
+.form-field select {
+          padding: 14px 32px;
+      margin-right: 20px;
+          border: 1px solid #EAEAEA;
+          font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #373737;
+}
+.form-field input#date {
+    padding: 12px 43px;
+}
+form.appointment-form button {
+    padding: 14px 46px;
+    border: 1px solid #C7C7C7;
+    background: transparent;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    margin: 30px 0px;
+}
+
+.doctors-tab .contact_forms {
+  width: unset;
+}
+
+.dr_summary a.know_btn {
+  margin: 40px 0px;
+  transform: translateX(40px);
+}
+
+
+.dr_summary .owl-nav button span:before {
+    content: '';
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    background-color: transparent;
+    width: 45%;
+    height: 45%;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+    background-image: url('data:image/svg+xml,<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.565646 9.62749L0.56562 9.62751C0.261926 9.95463 0.261926 10.483 0.56562 10.8102C0.872034 11.1402 1.37112 11.1402 1.67753 10.8102L5.76206 6.4106C6.06575 6.08348 6.06575 5.55507 5.76206 5.22795L1.67753 0.828396C1.37112 0.498348 0.872034 0.498348 0.56562 0.828396C0.261926 1.15551 0.261926 1.68392 0.56562 2.01104L0.616016 1.96426L0.565621 2.01104L4.10316 5.82125L0.565646 9.62749Z" fill="%23727272" stroke="%23727272" strokeWidth="0.137853"/></svg>');
+}
+.dr_summary .owl-nav button span {
+    content: "";
+    width: 50px;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    top: -50%;
+    justify-content: center;
+    align-items: center;
+    background-color: unset;
+    border: unset;
+    border-radius: 50%;
+    font-size: 0px;
+}
+.dr_summary button.owl-next span:before {
+    rotate: unset;
+}
+.dr_summary button.owl-prev span:before {
+    rotate: 180deg;
+}
+
+
+/* Video Boxes */
+.video_box {
+    height: 100%;
+    border-radius: 48px 12px;
+    overflow: hidden;
+    background-color: var(--gray);
+}
+.video_box .doctor-box {
+    margin-bottom: unset;
+}
+.video_box .video_title {
+    padding: 20px 30px;
+}

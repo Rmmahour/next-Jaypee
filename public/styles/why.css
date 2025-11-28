@@ -1,0 +1,331 @@
+.why-modal_care {
+    background: url('./../images/why-modal_care-bg.png')no-repeat center;
+    background-size: cover;
+  }
+  
+  .why-wrapper .modal_carelgheading {
+    font-weight: 600;
+    color: var(--text);
+    margin-top: 0;
+  }
+  
+  .why-modal_care .why-list {
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-style: dashed;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .why-modal_care .center-image {
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  
+  .why-modal_care .center-image.isloading {
+    animation: scaling-image-animation 1s ease;
+  }
+  
+  @keyframes scaling-image-animation {
+    0% {
+      transform: scale(0.3);
+      opacity: 0;
+    }
+  
+    /* 50% {
+      transform: scale(0.6);
+    } */
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .why-modal_care .center-image.isloading {
+    transform: scale(0.3);
+  }
+  
+  .why-modal_care .why-details {
+    padding: 100px 0;
+  }
+  
+   
+  .why-modal_care .why-list .anchor-button {
+    font-size: 14px;
+    justify-content: center;
+  }
+  
+  .why-modal_care .why-list .anchor-button span {
+    width: 28px;
+    height: 27px;
+  }
+  
+  .why-modal_care .why-list .anchor-button span {
+    box-shadow: none;
+  }
+  
+  .why-modal_care .why-list .anchor-button span::after {
+    top: 9px;
+    left: 8px;
+  }
+  
+
+  
+  .why-modal_care .why-list .click-text {
+    padding-bottom: 0px;
+  }
+  
+  
+  
+  .why-block-b .block-head {
+    text-align: left;
+    width: 80%;
+  }
+  
+  .why-block-b .anchor-button {
+    justify-content: flex-start !important;
+  }
+  
+ 
+  .why-block-c .block-head {
+    text-align: left;
+    width: 80%;
+  }
+  
+  .why-block-c .anchor-button {
+    justify-content: flex-start !important;
+  }
+
+  
+  .why-modal_care .why-block-d .click-text {
+    width: 200px;
+  }
+  
+  .why-block-d .block-head {
+    text-align: right;
+  }
+  
+  .why-block-d .anchor-button {
+    justify-content: flex-end !important;
+  }
+
+  
+  .why-modal_care .why-block-e .click-text {
+    width: 270px;
+  }
+  
+  .why-block-e .block-head {
+    text-align: right;
+  }
+  
+  .why-block-e .anchor-button {
+    justify-content: flex-end !important;
+  }
+  
+  .why-modal_care .blocking-hover {
+    cursor: pointer;
+  }
+  
+  .why-modal_care .blocking-hover:hover .click-circle {
+    cursor: pointer;
+    background: var(--primary);
+    border: none;
+  }
+  
+  .why-modal_care .block-head.active {
+    color: var(--primary);
+  }
+  
+  .why-resp-wrapper {
+    display: none;
+  }
+  
+  @media screen and (max-width:1199px) {
+    .why-modal_care .why-block-c {
+      right: -165px;
+    }
+  
+    .why-modal_care .why-block {
+      top: -100px;
+    }
+  
+    .why-modal_care .why-block-d {
+      left: -150px;
+    }
+  }
+  
+  @media screen and (max-width:1024px) {
+    .why-modal_care .why-list .block-head {
+      font-size: 15px;
+    }
+  
+    .why-modal_care .why-block-b {
+      right: -221px;
+    }
+  
+    .why-modal_care .why-block-e {
+      left: -213px;
+    }
+  
+    .why-modal_care .why-block-e .click-text {
+      width: 200px;
+    }
+  }
+  
+  @media screen and (max-width:991px) {
+    .why-modal_care {
+      background: none;
+      background-color: var(--primary);
+    }
+  
+    .why-resp-wrapper {
+      display: block;
+    }
+  
+    .why-resp-wrapper {
+      background: linear-gradient(0deg, #fff 50%, var(--primary) 50%);
+      position: relative;
+      z-index: 1;
+      margin-top: -4px;
+    }
+  
+    .why-resp-wrapper::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50%;
+      background: url(../images/why-modal_care-res-bg.png) no-repeat;
+      background-size: cover;
+      z-index: -1;
+    }
+  
+    .why-resp-wrapper .modal_carelgheading {
+      color: var(--white);
+      padding: 50px 0 0px;
+      font-size: 28px;
+      font-weight: 700;
+    }
+  
+    .why-wrapper .modal_carelgheading.pb-40 {
+      padding-bottom: 30px;
+    }
+  
+    .why-modal_care.py-50.pb-0 {
+      padding: 0 0 30px;
+    }
+  
+    .why-modal_care .why-wrapper {
+      display: none;
+    }
+  
+    .accor-list .list-accor {
+      list-style: none;
+      padding: 10px 20px;
+    }
+  
+    .accor-collepse-wraper img {
+      border-radius: 50%;
+      width: 440px;
+      height: auto;
+      margin: 20px 0;
+      border: 1px dashed black;
+      padding: 20px;
+    }
+  
+    .why-resp-content .accor-list {
+      background: var(--white);
+      background: #FFFFFF;
+      box-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+      border-radius: 20px;
+      margin: 0 20px;
+    }
+  
+    .accor-collepse-wraper {
+      display: none;
+      text-align: center;
+      position: relative;
+      padding-bottom: 30px;
+    }
+  
+    .why-resp-content h3 {
+      border-bottom: 1px solid var(--text);
+      color: var(--text);
+      padding: 0 20px 20px 0;
+      position: relative;
+      }
+  
+    .why-resp-content ul li {
+      margin: 10px 0 20px;
+    }
+  
+    .why-resp-content .common-button .anchor-button {
+      justify-content: center;
+    }
+  
+    .accor-collepse-wraper::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      border: 1px solid var(--text);
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    .why-resp-content h3:after {
+      content: "";
+      position: absolute;
+      top: -20px;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      width: 8px;
+      height: 8px;
+      border-radius: 2px;
+      display: inline-block;
+      border-bottom: 2px solid var(--text);
+      border-right: 2px solid var(--text);
+      transform: rotate(45deg);
+    }
+  
+    .why-resp-content h3.active:after {
+      transform: rotate(224deg);
+      top: -10px;
+    }
+  
+    .why-resp-content {
+      padding-bottom: 50px;
+    }
+  
+  
+    .why-modal_care {
+      background: none;
+      background-color: none;
+      padding: 0 !important;
+    }
+  
+    .why-resp-wrapper .modal_carelgheading {
+      padding: 50px 0 10px;
+    }
+  
+    .whymedataheadingmob {
+      padding: 30px 0 15px;
+      color: white !important;
+    }
+  }
+  
+  @media screen and (max-width:767px){
+    .why-resp-content {
+      padding-bottom: 30px;
+    }
+  }

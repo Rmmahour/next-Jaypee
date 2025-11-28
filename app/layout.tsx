@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,6 +26,32 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="stylesheet" href="styles/bootstrap.min.css" />
+        <link rel="stylesheet" href="styles/header.css" />
+        <link rel="stylesheet" href="styles/style.css" />
+        <link rel="stylesheet" href="styles/single-doctor.css" />
+        <link rel="stylesheet" href="styles/find-a-doctor.css" />
+        <link rel="stylesheet" href="styles/responsive.css" />
+        <link rel="stylesheet" href="styles/news.css" />
+        <link rel="stylesheet" href="styles/about.css" />
+        <link rel="stylesheet" href="styles/awards.css" />
+        <link rel="stylesheet" href="styles/bmw.css" />
+        <link rel="stylesheet" href="styles/events.css" />
+        <link rel="stylesheet" href="styles/contact.css" />
+        <link rel="stylesheet" href="styles/single-service.css" />
+        <link rel="stylesheet" href="styles/book-an-appointment.css" />
+        <link rel="stylesheet" href="styles/blogs.css" />
+        <link rel="stylesheet" href="styles/specialities.css" />
+        <link rel="stylesheet" href="fonts/stylesheet.css" />
+        <link rel="stylesheet" href="styles/owl.carousel.min.css" />
+        <script src="script/jquery.min.js"></script>
+        <script src="script/bootstrap.bundle.min.js"></script>
+        {/* < script src = "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script >  */}
+        <script src="script/owl.carousel.min.js"></script>
+        <script src="script/script.js"></script>
+         {/* < script src = "script/slick.min.js" ></script >  */}
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

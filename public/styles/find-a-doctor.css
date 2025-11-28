@@ -1,0 +1,200 @@
+section.bread_sec.inner.find_dr {
+    padding-bottom: 100px;
+}
+section.filter_sec .filter_container {
+    margin-top: -50px;
+    background-color: var(--gray);
+    padding: 50px;
+    border-radius: 64px 12px;
+}
+.filter_title p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.filter_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+.filter_box {
+    border-radius: 12px;
+    overflow: hidden;
+}
+.filter_drop select {
+    padding: 20px 30px;
+    margin: unset;
+    border-radius: 12px;
+}
+.input-group input, .input-group span {
+    border-radius: unset !important;
+    padding: 20px 30px;
+}
+
+.filter_box .input {
+    border: none !important;
+    padding: 20px 30px;
+}
+input:focus {
+    outline:unset;
+}
+.filter_box #filter-icon {
+    position: absolute;
+    top: 10%;
+    right: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    height: 80%;
+    width: 13%;
+    isolation: isolate;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: var(--orange);
+    border: 1px solid transparent;
+}
+.filter_box #main {
+  position: relative;
+  border-radius:12px;
+  background-color:#fff;
+}
+.doctor-content {
+    padding: 20px 20px 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.doctor_img img {
+    padding-top: 10px;
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+
+.our-doctors {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px 25px;
+}
+
+.doctor_box {
+    height: max-content;
+    border-radius: 48px 12px;
+    overflow: hidden;
+    border: 1px solid var(--text);
+}
+.doctor-content p {
+    font-size: 16px;
+    line-height: 24px;
+}
+.doctor-content {
+    padding: 20px 20px 30px;
+    align-content: center;
+    text-align: center;
+}
+section.doctors_sec a.main_btn2 {
+    margin: 50px auto 0px;
+}
+a.profile_btn svg {
+    width: 30px;
+}
+
+
+
+
+
+
+
+.filtered_docs {
+  padding-left: 40px;
+}
+.filter_drop select {
+  border: unset;
+  border-radius: unset;
+}
+.subscription .input-group {
+  border: unset;
+  background-color: #fff;
+}
+.subscription input {
+  border: unset;
+}
+.doctor_btn {
+  display: flex;
+  column-gap: 12px;
+}
+.doctor_box .experience {
+  margin: 20px 0px 30px 0px;
+  color: var(--blue);
+}
+.row.doctor_box > div:first-child {
+  padding-left: unset;
+}
+.row.doctor_box {
+  border: 1px solid var(--gray);
+  padding: 30px;
+}
+.doctors_container > .row {
+  grid-row-gap: 30px;
+}
+.doctor_img {
+  height: 100%;
+  /*border: 1px solid var(--gray);*/
+  background-color: #abc9eb;
+}
+.doctor_img img {
+  height: 100%;
+  object-fit: cover;
+}
+.doctor_box .title h3 {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.doctor_box .post p{
+  font-weight: 300;
+}
+.doctor_box .experience {
+  margin: 20px 0px 30px 0px;
+  color: var(--blue);
+}
+.dictor_info .doctor_btn a.bread_btn svg {
+    width: 16px;
+    height: 16px;
+}
+.doctor_btn a.bread_btn.profile_btn span {
+    background: var(--blue);
+}
+.doctor_btn a.bread_btn {
+  border: 1px solid #e4e2e2;
+}
+.dictor_info .doctor_btn a.bread_btn {
+    padding: 7px 20px 7px 7px;
+    font-size: 14px;
+}
+.doctor_btn a.bread_btn:first-child {
+  background-color: var(--blue);
+  color: #fff;
+  border: unset;
+}
+.doctor_btn a.bread_btn:first-child span svg path{
+  fill: var(--blue);
+}
+.doctor_btn a.bread_btn span {
+  background-color: #fff;
+}
+
+.load_more_btn a {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  padding: 15px 40px !important;
+  width: max-content;
+  border: 1px solid var(--gray);
+}
+.load_more_btn {
+  padding: unset;
+}

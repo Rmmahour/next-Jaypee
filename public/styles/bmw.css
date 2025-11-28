@@ -1,0 +1,22 @@
+.bmw_report_box {
+    background-color: var(--text);
+    border: 1px solid var(--text);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1px;
+}
+.bmw_report {
+    display: grid;
+    grid-template-columns: 2fr 8fr 2fr;
+    gap:1px;
+}
+.accordion-body .bmw_report_box > div:first-child > div {
+    background-color: var(--bg-blue);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+.bmw_report > div {
+    background: #fff;
+    padding: 15px 20px;
+}

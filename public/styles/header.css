@@ -1,0 +1,307 @@
+::-webkit-scrollbar {
+  width: 15px;
+  background:var(--gray);
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px var(--gray); 
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  -webkit-box-shadow: inset 0 0 2px var(--bg-blue); 
+  background:var(--blue);
+} 
+
+
+
+
+header {
+  position:relative;
+  padding:20px 0px;
+}
+header > div{
+    width: 90% !important;
+    margin: auto;
+}
+.nav-link{
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+.menu-container a.navbar-brand {
+  display: flex;
+  align-items: center;
+  width: 15%;
+}
+.navbar-collapse > ul:last-child a {
+    padding-bottom: 0;
+}
+.collapse.navbar-collapse {
+    /*display: flex !important;*/
+    flex-direction: column;
+    justify-content: space-around;
+}
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .collapse.navbar-collapse > ul {
+    display: flex;
+    justify-content: end;
+    /* column-gap: 30px; */
+  }
+  .navbar.navbar-expand-lg {
+    padding: unset;
+  }
+  /*.collapse.navbar-collapse {*/
+  /*  display: block !important;*/
+  /*}*/
+  .collapse.navbar-collapse > ul:first-child {
+    position: relative;
+    transform: translateY(-20px);
+    column-gap: 20px;
+    width: 100%;
+    justify-content: flex-end;
+}
+.collapse.navbar-collapse > ul:first-child > li span {
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--text);
+}
+header::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 65vw;
+    background-color: var(--gray);
+    height: 60px;
+    left: auto;
+    right: 0;
+    top: 0;
+    border-radius: 0px 0px 0px 100px;
+    overflow: hidden;
+}
+ .collapse.navbar-collapse > ul:first-child > li svg {
+  margin-right: 5px;
+     height: 22px;
+    width: 30px;
+  /* margin-bottom: 5px; */
+}
+ul.navbar-nav.bottom_menu {
+  justify-content: space-between;
+  width: 95%;
+  margin-left: auto;
+}
+ul.navbar-nav a.nav-link {
+    padding: 0;
+        font-weight: 500;
+}
+  .collapse.navbar-collapse > ul:first-child > li .nav-link {
+    color: var(--orange);
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+}
+  .navbar-collapse > ul:first-child > li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .navbar-collapse > ul a {
+    font-size: 18px;
+    line-height: 28px;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+.navbar-collapse > ul > li:last-child > a{
+  padding: unset !important;
+}
+ul.navbar-nav a.nav-link + .sub_menu {
+  display: none;
+}
+
+
+
+
+
+.nav-item {
+  position: relative;
+}
+ul.navbar-nav .nav-item .sub_menu {
+  display: none;
+}
+ul.navbar-nav .nav-item:hover .sub_menu {
+  display: grid;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: auto;
+  z-index: 99;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: fit-content;
+  height: fit-content;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 70vh;
+  background-color: #fff;
+  border: 1px solid var(--gray);
+}
+a.sub_menu_title {
+  font-size: 24px !important;
+  line-height: 32px !important;
+  font-weight: 600;
+}
+ul.navbar-nav .nav-item:hover .sub_menu.domestic, ul.navbar-nav .nav-item:hover .sub_menu.career{
+    grid-template-columns:1fr;
+}
+ul.navbar-nav .nav-item:hover .sub_menu.international, ul.navbar-nav .nav-item:hover .sub_menu.about{
+    grid-template-columns:1fr 1fr;
+}
+
+ul.navbar-nav .nav-item:hover .sub_menu.right {
+  right: 0;
+  left:auto;
+}
+ul.navbar-nav .nav-item .sub_menu > li {
+  padding: 10px 15px;
+  min-width: 200px;
+  flex-wrap: wrap;
+  display: flex;
+  transition: 0.3s ease-in-out;
+}
+ul.navbar-nav .nav-item .sub_menu.speciality > li:hover {
+  background-color: unset;
+}
+.sub_menu.speciality .mini_menu > li:first-child {
+  background-color: transparent !important;
+  color: #000 !important;
+  width: max-content;
+}
+.sub_menu.speciality > li{
+  position: relative;
+  width: max-content;
+}
+.sub_menu.speciality > li::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  right: -15px;
+  top: 0;
+  background-color: var(--gray);
+}
+ul.sub_menu.speciality {
+  gap: 10px;
+}
+ul.navbar-nav .nav-item .sub_menu > li li {
+  padding: 10px 15px;
+  width: 200px;
+  flex-wrap: wrap;
+  display: flex;
+  transition: 0.3s ease-in-out;
+  background-color: #fff;
+  color: #000;
+}
+
+ul.navbar-nav .nav-item .sub_menu li li:hover {
+  background-color: var(--blue);
+  color: #fff;
+}
+ul.navbar-nav .nav-item .sub_menu li:hover {
+  background-color: var(--blue);
+  color: #fff;
+}
+ul.navbar-nav .nav-item .sub_menu li a {
+    line-height: 22px;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*.main_btn::after {*/
+/*  content: "";*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  background: radial-gradient(*/
+/*    circle,*/
+/*    rgba(255, 255, 255, 0.25) 0%,*/
+/*    rgba(255, 255, 255, 0) 70%*/
+/*  );*/
+/*  transform: scale(0);*/
+/*  transition: transform 0.7s ease;*/
+/*}*/
+
+/*.main_btn:hover::after {*/
+/*  transform: scale(4);*/
+/*}*/
+
+/*.main_btn:hover {*/
+/*  border-color: var(--blue);*/
+/*  background: var(--blue);*/
+/*}*/
+
+.main_btn{
+    transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+
+.main_btn:hover {
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+}
+
+.main_btn:hover .icon {
+  transform: translate(4px);
+}
+
+.main_btn:hover::before {
+  animation: shine 1.5s ease-out infinite;
+}
+
+.main_btn::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 70%
+  );
+  top: 0;
+  left: -100px;
+  opacity: 0.6;
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}

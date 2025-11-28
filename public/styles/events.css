@@ -1,0 +1,20 @@
+.event-box img{
+     margin-bottom: 24px;
+     height: 359px;
+    object-fit: cover;
+}
+.event-box p{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 500;
+}
+.event-box {
+    background-color: var(--gray);
+    padding: 30px;
+    border-radius: 12px 48px;
+}
+.event_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}

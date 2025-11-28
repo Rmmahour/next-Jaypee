@@ -1,0 +1,76 @@
+.service_top_tabs {
+  border-top: 1px solid #ffffff4f;
+  background-color: var(--blue);
+  padding: 30px 0px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+.service_top_tabs nav {
+  gap:12px;
+}
+.service_top_tabs nav a.active {
+  background-color: #fff;
+  padding: 12px 32px;
+  color: #000;
+  border-radius: 70px;
+}
+.service_top_tabs nav{
+  display: flex;
+}
+.service_top_tabs nav a {
+  padding: 12px 32px;
+  background-color: #2366ab;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  display: block;
+  border-radius: 70px;
+}
+
+.service-tab .doctor_box {
+  background-color: #fff;
+}
+.service-tab .main_heading h2 {
+  text-align: unset;
+}
+
+
+
+.service_dr, .service_blogs{
+  background-color: var(--bg-blue);
+}
+
+
+
+.single_servive_container h3 {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 600;
+}
+.single_servive_container:first-child {
+  padding-top: unset;
+  border-bottom: 1px solid var(--gray);
+}
+.single_servive_container {
+  padding: 20px 0px;
+}
+
+.single_servive_content {
+  padding: 20px 0px;
+}
+.single_servive_content h5{
+    font-size: 18px;
+      line-height: 24px;
+      font-weight: 600;
+}
+
+.single_servive_page p, .single_servive_page li {
+  font-size: 16px;
+  line-height: 22px;
+}
+.single_servive_page ol, .single_servive_page ul {
+  list-style-type: initial;
+  padding-left: 2rem;
+}
